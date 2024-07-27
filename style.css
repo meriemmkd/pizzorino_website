@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+    margin-right: 10px;
+    color: #f73720 ;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 500px;
+
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #f73720 ;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+
+#presentation {
+    background: url('/img/background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+} 
+
+#presentation .content {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background to the text */
+    padding: 20px;
+    display: inline-block;
+}
+
+section#recipes .recipe {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #f5d5a8; /* Light background color for recipe boxes */
+    border-radius: 8px; /* Rounded corners */
+}
+
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+section#recipes .recipe {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#about .about-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#about .about-images img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 8px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form button {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+    margin: 0 5px;
+}
