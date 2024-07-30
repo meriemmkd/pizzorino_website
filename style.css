@@ -60,7 +60,7 @@ header nav ul li a {
 } 
 
 #presentation .content {
-    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background to the text */
+    background-color: rgba(0, 0, 0, 0.5); 
     padding: 20px;
     display: inline-block;
 }
@@ -69,8 +69,8 @@ section#recipes .recipe {
     border: 1px solid #ccc;
     padding: 20px;
     margin: 10px 0;
-    background-color: #f5d5a8; /* Light background color for recipe boxes */
-    border-radius: 8px; /* Rounded corners */
+    background-color: #f5d5a8;
+    border-radius: 8px; 
 }
 
 section:nth-child(even) {
@@ -122,14 +122,14 @@ section#recipes .recipe {
 
 form input, form button {
     width: 100%;
-    max-width: 400px; /* Limiting the width for a better layout on larger screens */
+    max-width: 400px;
     padding: 10px;
     margin: 10px 0;
-    border-radius: 4px; /* Slight rounding for inputs */
+    border-radius: 4px; 
 }
 
 form button {
-    background-color: #f76320; /* Orangish color */
+    background-color: #f76320; 
     color: white; 
     border: none;
     cursor: pointer;
@@ -172,7 +172,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #f76320; /* Highlight links with the orangish color */
+    color: #f76320; 
 }
 
 footer .social-icons {
