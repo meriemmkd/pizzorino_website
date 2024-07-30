@@ -1,12 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', Helvetica, sans-serif; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    background-color: #2c2c2c; 
+    color: rgb(255, 255, 255);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -72,6 +73,13 @@ section#recipes .recipe {
     border-radius: 8px; /* Rounded corners */
 }
 
+section:nth-child(even) {
+    background-color: #f0f0f0; 
+}
+
+section:nth-child(odd) {
+    background-color: #e0e0e0;
+}
 
 section {
     padding: 20px;
@@ -83,6 +91,15 @@ section img {
     height: auto;
     margin-bottom: 20px;
 }
+
+section img, #about .about-images img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc; 
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
 
 section#recipes .recipe {
     border: 1px solid #ccc;
@@ -103,6 +120,27 @@ section#recipes .recipe {
     border-radius: 8px;
 }
 
+form input, form button {
+    width: 100%;
+    max-width: 400px; /* Limiting the width for a better layout on larger screens */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px; /* Slight rounding for inputs */
+}
+
+form button {
+    background-color: #f76320; /* Orangish color */
+    color: white; 
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #e6521a; 
+}
+
+
 form {
     display: flex;
     flex-direction: column;
@@ -117,11 +155,31 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
     padding: 10px 0;
+    font-size: 14px;
 }
 
 footer a {
     color: #ddd;
     text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #f76320; /* Highlight links with the orangish color */
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
     margin: 0 5px;
+    font-size: 20px;
 }
